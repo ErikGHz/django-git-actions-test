@@ -33,6 +33,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run Django and tests
-        run: |
-            ./manage.py runserver 
-            ./manage.py test
+        run: ./manage.py test
